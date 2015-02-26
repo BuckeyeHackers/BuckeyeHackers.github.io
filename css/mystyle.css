@@ -1,8 +1,6 @@
 body {
-	background-color: black;
-	color: white;
+	color: black;
 	font-family: 'Roboto', sans-serif;
-	background-image: url("../img/binding_dark.png");
 	font-weight: 100;
 }
 
@@ -67,13 +65,13 @@ header {
 
 
 a {
-	color: #4990E2;
+	color: red;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
-	color: white;
+	color: gray;
 }
 
 
