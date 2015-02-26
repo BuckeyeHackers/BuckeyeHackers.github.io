@@ -47,6 +47,10 @@ body {
 	height: 200px;
 }
 
+h1 {
+	font-weight: 300;
+}
+
 .bold {
 	font-weight: 300;
 }
