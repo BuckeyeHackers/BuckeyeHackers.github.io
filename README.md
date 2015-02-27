@@ -1,2 +1,2 @@
-# mobileapposu.github.io
-Website
+# buckeyehackers.github.io
+A site for the Buckeye Hackers group.
