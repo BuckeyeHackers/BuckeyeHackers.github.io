@@ -1,7 +1,72 @@
+/*******NavBar*******/
+.nav ul {
+  list-style: none;
+  background-color: #666;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #444;
+  color: rgb(187,0,0);
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #666;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 400px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  */
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #666;
+  }
+  */
+}
+
 body {
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
+	margin: 0;
 }
 
 .title {
@@ -16,15 +81,6 @@ body {
 	text-align: center;
 }
 
-.phone-image-div {
-	width: 100%;
-	height: auto;
-	position: absolute;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-}
-
 .tagline {
 	font-size: 22pt;
 	font-weight: 300;
@@ -35,28 +91,13 @@ body {
 	font-weight: 300;
 }
 
-.phone-image {
-	/*width: 130px;*/
-}
-
-.absolute-holder {
-	height: 200px;
-}
-
-.absolute-holder2 {
-	height: 200px;
-}
-
 h1 {
 	font-weight: 300;
+	display: center;
 }
 
 .bold {
 	font-weight: 300;
-}
-
-header {
-	height: 5px;
 }
 
 /*Buttony things*/
@@ -88,31 +129,3 @@ a:hover {
    border: 2px solid #666;
 }
 
-/*-----------------------------------------------*/
-/*Animations*/
-
-.logo-circle {
-    stroke-dasharray: 2000;
-    stroke-dashoffset: 2000;
-    -webkit-animation:spin 2s linear forwards;
- 	-moz-animation:spin 2s linear forwards;   
-}
-
-.phone {
-    stroke-dasharray: 2000;
-    stroke-dashoffset: -1500;
-    -webkit-animation:spin 1.5s linear forwards;
-    -moz-animation:spin 1.5s linear forwards;
-}
-
-@-moz-keyframes spin { 
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes spin { 
-  to {
-    stroke-dashoffset: 0;
-  }
-}
