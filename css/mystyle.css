@@ -11,7 +11,7 @@ body {
 	font-size: 40pt;
 }
 
-.content {	
+.content {
 	margin-top: 15px;
 	text-align: center;
 }
@@ -56,7 +56,7 @@ h1 {
 }
 
 header {
-	height: 45px;
+	height: 5px;
 }
 
 /*Buttony things*/
@@ -76,7 +76,16 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: gray;
+	color: #666;
+}
+.button {
+   border: 2px solid #bb0000;
+   padding: 8px 16px;
+   border-radius: 10px;
+   vertical-align: middle;
+}
+.button:hover {
+   border: 2px solid #666;
 }
 
 /*-----------------------------------------------*/
