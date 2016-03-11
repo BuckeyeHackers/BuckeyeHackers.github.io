@@ -22,8 +22,8 @@
 }
  
 .nav a:hover {
-  background-color: #444;
-  color: rgb(187,0,0);
+  background-color: #888;
+  color: white;
 }
  
 .nav a.active {
@@ -122,3 +122,32 @@ a:hover {
    border: 2px solid #666;
 }
 
+/***Events Stuff***/
+
+.event{
+font-weight: 300;margin-bottom: 20px;}
+
+.events_container{
+margin: 0px 20% 0px 20%;
+}
+
+.events_header{
+border-bottom: 1px solid black;
+font-size: -webkit-xxx-large;
+font-weight: 500;
+}
+
+.event .name{
+font-size: 24pt;}
+
+.event .date{
+font-size: large;
+font-weight: inherit;margin: 0;margin-left: 20px;}
+
+.event .location{
+font-weight: inherit;
+}
+
+.event .info{
+	
+}
