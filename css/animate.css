@@ -1150,6 +1150,13 @@ Copyright (c) 2014 Daniel Eden
   animation-delay: 1.5s;
 }
 
+.eventfadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
