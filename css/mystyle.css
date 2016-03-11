@@ -32,7 +32,7 @@
   cursor: default;
 }
  
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   .nav li {
     width: 120px;
     border-bottom: none;
@@ -40,14 +40,6 @@
     line-height: 50px;
     font-size: 1.4em;
   }
- 
-  /* Option 1 - Display Inline 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-  */
   .nav li {
     float: left;
   }
@@ -59,9 +51,9 @@
   .nav {
     background-color: #666;
   }
-  */
 }
 
+/********MainPage******/
 body {
 	color: black;
 	font-family: 'Roboto', sans-serif;
@@ -100,7 +92,7 @@ h1 {
 	font-weight: 300;
 }
 
-/*Buttony things*/
+/*****Buttony things**********/
 
 .f {
 	font-size: 32pt;
@@ -113,6 +105,7 @@ a {
     color: rgb(187, 0, 0);
     text-decoration: none;
     border-bottom: solid white 1px;
+    width: auto;
 }
 
 a:hover {
