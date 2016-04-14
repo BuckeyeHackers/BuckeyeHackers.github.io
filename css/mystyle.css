@@ -1,65 +1,39 @@
 /*******NavBar*******/
-.nav ul {
-  list-style: none;
-  background-color: #666;
-  text-align: center;
-  padding: 0;
+nav ul {
   margin: 0;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1em;
 }
-.nav li {
-  font-family: 'Roboto', sans-serif;
-  font-weight:300;
-  font-size: 1.2em;
+nav li {
+  width: 120px;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid white;
+  float:left;
 }
- 
-.nav a {
+nav a {
   text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
+  font-weight: 300;
+  font-size: 18pt;
 }
+nav a.active{cursor: default;border-bottom: 1px solid;}
+nav a:hover{border-bottom: 1px solid;}
  
-.nav a:hover {
-  background-color: #888;
-  color: white;
+@media screen and (max-width: 450px) {
+  nav li{
+    float:none;
+    width:inherit;
+    border-bottom: 1px solid;
+  }
+  nav ul{padding-left:0;}
 }
- 
-.nav a.active {
-  background-color: #fff;
-  color: #666;
-  cursor: default;
-}
- 
-@media screen and (min-width: 300px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: hidden;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #666;
-  }
-}
-
 /********MainPage******/
 body {
 	color: black;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
 	margin: 0;
+	font-weight:300;
 }
 
 .title {
@@ -70,88 +44,74 @@ body {
 }
 
 .content {
-	margin-top: 45px;
+	margin-top: 2em;
 	text-align: center;
-	font-size: 2em;
+	font-size:20pt;
 }
 
 .tagline {
 	font-size: 22pt;
-	font-weight: 300;
+	margin:1em 2em;
 }
 
-.time {
-	font-size: 16pt;
-	font-weight: 300;
-}
+.time {font-size: 16pt;}
 
-h1 {
-	font-weight: 300;
-	display: center;
-}
-
-.bold {
-	font-weight: 300;
-}
+h1 {font-weight: 300;}
+h3{font-weight:300;}
+.bold {font-weight: 300;}
+b{font-weight:300;}
 
 /*****Buttony things**********/
-
-.f {
-	font-size: 32pt;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-
 a {
-    color: rgb(187, 0, 0);
+    color: #bb0000;
     text-decoration: none;
-    border-bottom: solid white 1px;
-    width: auto;
 }
+a:hover {color: #666;}
 
-a:hover {
-	text-decoration: none;
-	color: #666;
-}
 .button {
    border: 2px solid #bb0000;
-   padding: 8px 16px;
+   padding: .25em .5em;
    border-radius: 10px;
-   vertical-align: middle;
 }
-.button:hover {
-   border: 2px solid #666;
-}
+.button:hover {border: 2px solid #666;}
 
 /***Events Stuff***/
 
 .event{
-font-weight: 300;margin-bottom: 20px;}
+	font-weight: 300;
+	margin-bottom: 20px;
+}
 
 .events_container{
-margin: 0px 20% 0px 20%;
+	padding: 0 25%;
 }
 
 .events_header{
-border-bottom: 1px solid black;
-font-size: -webkit-xxx-large;
-font-weight: 500;
+	border-bottom: 1px solid black;
+	font-size: 30pt;
+	font-weight: 300;
 }
 
-.event .name{
-font-size: 24pt;}
+.event .name{font-size: 24pt;}
 
 .event .date{
-font-size: large;
-font-weight: inherit;margin: 0;margin-left: 20px;}
-
-.event .location{
-font-weight: inherit;
+	font-size: 16pt;
+	font-weight: 300;
+	margin: 0;
+	margin-left: 2em;
 }
 
-.event .info{
-	
+
+/* Improvements for smaller screens */
+
+@media screen and (max-width: 1200px) { 
+  .events_container{padding:0 20%}
+}
+@media screen and (max-width: 900px) { 
+  .events_container{padding:0 15%}
+}
+@media screen and (max-width: 800px) { 
+  .events_container{padding:0 10%}
 }
 
 /******** Contact ******/
