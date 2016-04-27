@@ -105,7 +105,7 @@ a:hover {color: #666;}
 
 .friends_container{
 	margin-top:3em;
-	padding: 0 25%;
+	padding: 0 20%;
 }
 
 .friend{
@@ -122,9 +122,7 @@ a:hover {color: #666;}
 .friend .info{margin:1em;}
 .friend .name{font-size:20pt;}
 .friend .desc{margin:0;}
-.friend a:hover{
-	opacity:.5;
-}
+.friend a:hover{opacity:.5;}
 
 @media screen and (max-width: 520px) {
   .friend .logo{display:none;}
@@ -133,11 +131,11 @@ a:hover {color: #666;}
 
 @media screen and (max-width: 1200px) { 
   .events_container{padding:0 20%}
-  .friends_container{padding:0 20%}
+  .friends_container{padding:0 15%}
 }
 @media screen and (max-width: 900px) { 
   .events_container{padding:0 15%}
-  .friends_container{padding:0 15%}
+  .friends_container{padding:0 10%}
 }
 @media screen and (max-width: 800px) { 
   .events_container{padding:0 10%}
