@@ -63,6 +63,10 @@ a {
 
 @media screen and (max-width: 1000px) { 
 	.icon{display:none;}
-	.content{width:100%;padding: 0 3em 1em 3em;}
+	.content{padding: 0 3em 1em 3em;}
 	.block{margin:2.5% 10%;}
+}
+@media screen and (max-width: 500px) { 
+	.content{padding: 0 1em 1em 1em;}
+	.block{margin:2.5% 2.5%;}
 }
