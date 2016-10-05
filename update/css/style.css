@@ -1,59 +1,60 @@
 /********MainPage******/
 body {
-	font-family: 'Titillium Web', sans-serif;	
-	margin: 0;
-	font-weight:400;
-	padding: 0px;
-	font-size:16pt;
-	background-image:URL('../img/bg.png');
-	background-attachment:fixed;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 16pt;
+    background-image: URL('../img/bg.png');
+    background-attachment: fixed;
 }
 
-#title{
-	color:#fff;
-	padding-left:12.5%;
-	font-weight:700;
-	font-size: 32pt;
+#title {
+    color: #fff;
+    padding-left: 20%;
+    font-weight: 700;
+    font-size: 42pt;
 }
 
 .block {
     display: flex;
     margin: 2.5% 20%;
     align-items: center;
-    background: rgba(255, 255, 255, .7);
-    border-right: rgba(0, 0, 0, .3) 5px solid;
-    border-bottom: rgba(0, 0, 0, .3) 5px solid;
+    background: white;
     border-radius: 10px;
+    filter: drop-shadow(5px 5px 2px rgba(0,0,0,.6));
 }
 
 .icon {
- 	color:#bb0000;
- 	display: inline-block;
- 	width: 25%;
- 	text-align: center;
- 	font-size: 100pt;
+    color: #bb0000;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-size: 100pt;
+    filter: drop-shadow(5px 5px 2px rgba(0,0,0,.6));
+    padding: 0px 5%;
 }
 
-.content{
- 	display: inline-block;
- 	padding-bottom: 1em;
- 	width: 80%;
+.content {
+    display: inline-block;
+    padding-bottom: 1em;
+    width: 80%;
 }
- 
-.content-header{
-	text-align:center;
-	margin: .5em 3em;
-	font-weight:600;
-	font-size: 20pt;
-	border-bottom:black 1px solid;
+
+.content-header {
+    text-align: center;
+    margin: .5em 3em;
+    font-weight: 600;
+    font-size: 20pt;
+    border-bottom: black 1px solid;
 }
 
 .right {
-	padding-right:3em;
+    padding-right: 3em;
 }
 
 .left {
-	padding-left:3em;
+    padding-left: 3em;
 }
 
 a {
@@ -61,12 +62,26 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1000px) { 
-	.icon{display:none;}
-	.content{padding: 0 3em 1em 3em;}
-	.block{margin:2.5% 10%;}
+@media screen and (max-width: 1000px) {
+    .icon {
+        display:none;
+    }
+
+    .content {
+        padding: 0 3em 1em 3em;
+    }
+
+    .block {
+        margin: 2.5% 10%;
+    }
 }
-@media screen and (max-width: 500px) { 
-	.content{padding: 0 1em 1em 1em;}
-	.block{margin:2.5% 2.5%;}
+
+@media screen and (max-width: 500px) {
+    .content {
+        padding: 0 1em 1em 1em;
+    }
+
+    .block {
+        margin: 2.5% 2.5%;
+    }
 }
