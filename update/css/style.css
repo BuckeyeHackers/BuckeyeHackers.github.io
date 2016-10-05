@@ -31,7 +31,7 @@ body {
     width: 25%;
     text-align: center;
     font-size: 100pt;
-    filter: drop-shadow(5px 5px 2px rgba(0,0,0,.6));
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,.6));
     padding: 0px 5%;
 }
 
