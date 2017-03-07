@@ -1,0 +1,41 @@
+[ 
+  {
+  "name":"Revolution UC",
+  "title_url":"https://revolutionuc.com/",
+  "link_type": 0,
+  "date_string":"April 8th & 9th",
+  "date":"April 8 2017",
+  "time":"",
+  "location":"UC",
+  "location_url":"",
+  "desc":"",
+  "rsvp":"",
+  "rsvp_link":""
+  },
+  {
+  "name":"Weekly Meeting",
+  "title_url":"",
+  "link_type": 0,
+  "date_string":"March 20th",
+  "date":"March 20 2017",
+  "time":"7:00",
+  "location":"070 18th Ave Lib.",
+  "location_url":"",
+  "desc":"No talk scheduled -- social / work day",
+  "rsvp":"",
+  "rsvp_link":""
+  },
+  {
+  "name":"Make OHI/O",
+  "title_url":"https://make-oh.io",
+  "link_type": 0,
+  "date_string":"March 4th & 5th",
+  "date":"March 4 2017",
+  "time":"",
+  "location":"Knowlton Hall",
+  "location_url":"",
+  "desc":"",
+  "rsvp":"",
+  "rsvp_link":""
+  }
+]

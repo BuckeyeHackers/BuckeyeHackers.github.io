@@ -75,7 +75,7 @@ a:hover {color: #666;}
 }
 .button:hover {border: 2px solid #666;}
 
-/****** Events Stuff ******/
+/***Events Stuff***/
 
 .event{
 	font-weight: 300;
@@ -83,38 +83,22 @@ a:hover {color: #666;}
 }
 
 .events_container{
-	margin: 0px 15% 0px 15%;
+	padding: 0 25%;
 }
 
 .events_header{
 	border-bottom: 1px solid black;
-	font-size: -webkit-xxx-large;
-	font-weight: 500;
+	font-size: 30pt;
+	font-weight: 300;
 }
 
-.event .name{
-	font-size: xx-large;
-	font-weight:600;
-}
+.event .name{font-size: 24pt;}
 
 .event .date{
-	font-size: x-large;
-	font-weight: inherit;
+	font-size: 16pt;
+	font-weight: 300;
 	margin: 0;
-	margin-top:5px;
-	margin-left: 20px;
-}
-
-.event .location{
-	font-weight: inherit;
-}
-
-.event .desc{
-	font-size: large;
-	font-weight: inherit;
-	margin: 0;
-	margin-top:5px;
-	margin-left: 20px;
+	margin-left: 2em;
 }
 
 /***Friends Stuff***/
